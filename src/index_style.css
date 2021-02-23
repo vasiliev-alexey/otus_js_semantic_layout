@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 0.75em 'Roboto Light', Helvetica, sans-serif;
+  background: #d7e1f5;
+  color: #ffe;
+  height: 100%;
+}
+a {
+  color: #008bce;
+}
+.container {
+  width: auto;
+  height: 78%;
+  background: #fce600;
+  border: solid black;
+}
+header {
+  font-size: 2.2em;
+  text-align: center;
+  padding: 5px;
+  background: #d71920;
+  height: 10%;
+}
+nav,
+aside {
+  border: solid 2px red;
+  width: border-box;
+  width: 19%;
+  padding-left: 1%;
+}
+nav {
+  float: left;
+  position: absolute;
+  padding: 0px 0px 0px 0.5%;
+}
+main {
+  background: #54b948;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 100%;
+  position: relative;
+  border: solid black;
+  overflow: auto;
+}
+aside {
+  float: left;
+  color: #000;
+  margin-left: 79%;
+  box-sizing: border-box;
+  position: absolute;
+  overflow: no-display;
+}
+h2 {
+  margin: 0 0 1em;
+}
+footer {
+  clear: both;
+  background: #d71920;
+  height: 10%;
+  width: auto;
+}
+
+.col {
+  width: 24.5%;
+  height: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.logo {
+  border: solid 1px black;
+  float: left;
+  width: 33.3%;
+  height: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.data {
+  float: right;
+  width: 66%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  font: 0.3em 'Roboto Light', Helvetica, sans-serif;
+  line-height: 0.5em;
+}
+
+.logoText {
+  line-height: 0.5em;
+}
+
+h4 {
+  font: 1.5em 'Roboto Light', Helvetica, sans-serif;
+  line-height: 0.33em;
+}
