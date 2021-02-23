@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - 'weather-*'
+      - 'semantic-*'
 
 jobs:
   deploy-to-gh-pages:
