@@ -2,6 +2,12 @@ html {
   height: 100%;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -20,7 +26,6 @@ a {
   background: #fce600;
 }
 header {
-  font-size: 1rem;
   text-align: center;
   padding: 5px;
   background: #d71920;
@@ -34,7 +39,6 @@ aside {
 }
 main {
   background: #54b948;
-  box-sizing: border-box;
   height: 100%;
   width: 60%;
   overflow: auto;
@@ -42,10 +46,11 @@ main {
 }
 aside {
   color: #000;
-  box-sizing: border-box;
 }
+h1,
 h2 {
   margin: 0 0 1rem;
+  font: 1.3rem 'Roboto Light', Helvetica, sans-serif;
 }
 footer {
   clear: both;
@@ -58,14 +63,12 @@ footer {
   width: 24.5%;
   height: 100%;
   display: inline-block;
-  box-sizing: border-box;
 }
 
 .logo {
   border: solid 1px black;
   width: 20%;
   height: 100%;
-  box-sizing: border-box;
   background-image: url('./dab-1692452_960_720.png');
   background-size: 90px;
   background-position: center;
@@ -75,8 +78,6 @@ footer {
 .data {
   width: 66%;
   height: 100%;
-  box-sizing: border-box;
-  font: 0.3rem 'Roboto Light', Helvetica, sans-serif;
   line-height: 1rem;
 }
 
