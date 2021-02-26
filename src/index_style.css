@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font: 0.75em 'Roboto Light', Helvetica, sans-serif;
+  font: 1em 'Roboto Light', Helvetica, sans-serif;
   background: #d7e1f5;
   color: #ffe;
   height: 100%;
@@ -16,47 +16,36 @@ a {
 .container {
   width: auto;
   height: 78%;
+  display: flex;
   background: #fce600;
 }
 header {
-  font-size: 2.2em;
+  font-size: 1rem;
   text-align: center;
   padding: 5px;
   background: #d71920;
   height: 10%;
+  display: flex;
 }
 nav,
 aside {
-  width: border-box;
-  width: 19%;
-  padding-left: 1%;
-}
-nav {
-  float: left;
-  position: absolute;
-  padding: 0px 0px 0px 0.5%;
+  width: 20%;
+  margin: 5px;
 }
 main {
   background: #54b948;
-  margin-left: 20%;
-  margin-right: 20%;
   box-sizing: border-box;
-  padding: 10px;
   height: 100%;
-  position: relative;
-
+  width: 60%;
   overflow: auto;
+  padding: 10px;
 }
 aside {
-  float: left;
   color: #000;
-  margin-left: 79%;
   box-sizing: border-box;
-  position: absolute;
-  overflow: no-display;
 }
 h2 {
-  margin: 0 0 1em;
+  margin: 0 0 1rem;
 }
 footer {
   clear: both;
@@ -65,7 +54,7 @@ footer {
   width: auto;
 }
 
-.col {
+.footerColumn {
   width: 24.5%;
   height: 100%;
   display: inline-block;
@@ -74,28 +63,29 @@ footer {
 
 .logo {
   border: solid 1px black;
-  float: left;
-  width: 33.3%;
+  width: 20%;
   height: 100%;
-  display: inline-block;
   box-sizing: border-box;
+  background-image: url('./dab-1692452_960_720.png');
+  background-size: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .data {
-  float: right;
   width: 66%;
   height: 100%;
-  display: block;
   box-sizing: border-box;
-  font: 0.3em 'Roboto Light', Helvetica, sans-serif;
-  line-height: 0.5em;
+  font: 0.3rem 'Roboto Light', Helvetica, sans-serif;
+  line-height: 1rem;
 }
 
 .logoText {
-  line-height: 0.5em;
+  line-height: 0.33rem;
+  font: 0.75rem 'Roboto Light', Helvetica, sans-serif;
 }
 
 h4 {
-  font: 1.5em 'Roboto Light', Helvetica, sans-serif;
-  line-height: 0.33em;
+  font: 1.5rem 'Roboto Light', Helvetica, sans-serif;
+  line-height: 0.1rem;
 }
