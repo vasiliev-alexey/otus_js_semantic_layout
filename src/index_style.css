@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 1em 'Roboto Light', Helvetica, sans-serif;
+  background: #d7e1f5;
+  color: #ffe;
+  height: 100%;
+}
+a {
+  color: #008bce;
+}
+.container {
+  width: auto;
+  height: 78%;
+  display: flex;
+  background: #fce600;
+}
+header {
+  text-align: center;
+  padding: 5px;
+  background: #d71920;
+  height: 10%;
+  display: flex;
+}
+nav,
+aside {
+  width: 20%;
+  margin: 5px;
+}
+main {
+  background: #54b948;
+  height: 100%;
+  width: 60%;
+  overflow: auto;
+  padding: 10px;
+}
+aside {
+  color: #000;
+}
+h1,
+h2 {
+  margin: 0 0 1rem;
+  font: 1.3rem 'Roboto Light', Helvetica, sans-serif;
+}
+footer {
+  clear: both;
+  background: #d71920;
+  height: 10%;
+  width: auto;
+}
+
+.footerColumn {
+  width: 24.5%;
+  height: 100%;
+  display: inline-block;
+}
+
+.logo {
+  border: solid 1px black;
+  width: 20%;
+  height: 100%;
+  background-image: url('./dab-1692452_960_720.png');
+  background-size: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.data {
+  width: 66%;
+  height: 100%;
+  line-height: 1rem;
+}
+
+.logoText {
+  line-height: 0.33rem;
+  font: 0.75rem 'Roboto Light', Helvetica, sans-serif;
+}
+
+h4 {
+  font: 1.5rem 'Roboto Light', Helvetica, sans-serif;
+  line-height: 0.1rem;
+}
